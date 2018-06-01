@@ -17,4 +17,7 @@ git log #日志
 			git rm <file> #版本库删除  解决方案： git reset HEAD <file>
 			rm <file> #本地删除  解决方案：git checkout -- <file>
 二、 github
-			ssh-keygen -t rsa -C "youremail@example.com" #创建ssh key
+			ssh-keygen -t rsa -C "youremail@example.com" #创建ssh 
+			git remote add origin git@github.com:michaelliao/learngit.git  #关联github
+			git push #推送至github
+			git 
