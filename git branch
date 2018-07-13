@@ -90,7 +90,7 @@ $ git log --graph
 git log --graph --pretty=oneline --abbrev-commit
 ```
 
-### 普通模式合并分支:禁用n`o-ff`
+### 普通模式合并分支:禁用--no-ff`
 
 因为本次合并要创建一个新的commit，所以加上`-m`参数，把commit描述写进去。  
 
